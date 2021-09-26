@@ -34,7 +34,7 @@ void ChangeBrightness(cimg_library::CImg<float> &image, int modifier) {
 
 int main() {
     cimg_library::CImg<float> image("images/image.bmp");
-    ChangeBrightness(image, -50);
+    ChangeBrightness(image, 50);
     image.save("images/result2.bmp");
 	return 0;
 }
